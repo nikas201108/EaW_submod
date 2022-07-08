@@ -1,5 +1,5 @@
 capital = 684
-set_oob = "RRE_1007"
+oob - "RRE_1007"
 
 set_research_slots = 2
 starting_train_buffer = 1
