@@ -1,5 +1,4 @@
 ﻿l_russian:
-l_russian:
 EQS_neutrality:0 "Эквестрия"
 EQS_neutrality_DEF:0 "Эквестрия"
 EQS_fascism:0 "Эквестрийское Государство"
@@ -730,9 +729,9 @@ ELF_communism_ADJ:0 "Эквестрийск"
 COM_world_communism:0 "Мировая Социалистическая Республика"
 COM_world_communism_DEF:0 "Мировая Социалистическая Республика"
 COM_world_communism_ADJ:0 "Всемирно-Республиканск"
-RRE_communism:0 "Совет народных комиссаров"
-RRE_communism_DEF:0 "Совет народных комиссаров"
-RRE_communism_ADJ:0 "Советск."
+RRE_communism:0 "Революционная республика Эквестрия"
+RRE_communism_DEF:0 "Революционная республика Эквестрия"
+RRE_communism_ADJ:0 "Эквестр."
 RRE_democratic:0 "Федерация свободных островов"
 RRE_democratic_DEF:0 "Федерация свободных островов"
 RRE_democratic_ADJ:0 "Федеративн."
