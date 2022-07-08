@@ -1,0 +1,28 @@
+
+state={
+	id=684
+	name="STATE_684"
+
+	history={
+		owner = RRE
+		add_core_of = RRE
+		victory_points = { 13345 30 }
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				arms_factory = 1
+				13345 = {naval_base = 1
+					supply_node = 1	
+}
+		}
+	}
+
+
+	provinces={
+		13345
+	}
+	manpower=37188
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

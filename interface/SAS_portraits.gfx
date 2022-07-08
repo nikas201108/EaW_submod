@@ -1,0 +1,4 @@
+spriteTypes = {
+	name = "GFX_portrait_RRE_SNK"
+	texturefile = "gfx/leaders/RRE/portrait_RRE_supreme_soviet.dds"
+}

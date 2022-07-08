@@ -1,0 +1,14 @@
+characters={
+	RRE_council_of_peoples_commissars={
+		name=RRE_council_of_peoples_commissars
+		portraits={
+			civilian={
+				large="GFX_portrait_RRE_SNK"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CPC"
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+}}}

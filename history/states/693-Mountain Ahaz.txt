@@ -1,0 +1,22 @@
+
+state={
+	id=693
+	name="STATE_693"
+
+	history={
+		owner = RRE
+		victory_points = { 13374 10 }
+		buildings = {
+		infrastructure = 1
+		arms_factory = 1		
+}
+	}
+
+	provinces={
+		13372 13373 13374 13375
+	}
+	manpower=285299
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,59 @@
+capital = 684
+oob - "RRE_1007"
+
+set_research_slots = 2
+starting_train_buffer = 1
+
+set_technology = {
+	pony_race = 1
+	melee_weapons = 1
+	melee_weapons1 = 1
+	pre_gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_military_police = 1
+}
+actually_fix_weapon_techs = yes
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+set_convoys = 40
+set_popularities = {
+	democratic = 15
+	fascism = 30
+	communism = 20
+	neutrality = 35
+}
+set_politics = {
+
+	ruling_party = communism
+	last_election = "1002.06.06"
+	election_frequency = 60
+	elections_allowed = yes
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 3000
+	producer = RRE
+}
+
+set_stability = 0.3
+set_war_support = 0.2
+add_manpower = 2333
+
+recruit_character = RRE_council_of_peoples_commissars
+
+create_faction = "Revolutionary_international"
+
+set_rule = {
+	can_generate_female_aces = yes
+}
+
+
