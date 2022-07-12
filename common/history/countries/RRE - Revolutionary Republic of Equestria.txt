@@ -1,4 +1,4 @@
-capital = 684
+capital =
 oob - "RRE_1007"
 
 set_research_slots = 2
@@ -43,17 +43,15 @@ add_equipment_to_stockpile = {
 	amount = 3000
 	producer = RRE
 }
+add_ideas = {
+
+}
 
 set_stability = 0.3
 set_war_support = 0.2
-add_manpower = 2333
-
-recruit_character = RRE_council_of_peoples_commissars
 
 create_faction = "Revolutionary_international"
 
 set_rule = {
 	can_generate_female_aces = yes
 }
-
-
