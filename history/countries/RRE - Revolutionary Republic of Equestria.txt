@@ -1,5 +1,5 @@
 capital = 684
-oob - "RRE_1007"
+set_oob = "RRE_1007"
 
 set_research_slots = 2
 starting_train_buffer = 1
@@ -56,4 +56,37 @@ set_rule = {
 	can_generate_female_aces = yes
 }
 
-
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	### Variants ###
+	create_equipment_variant = {
+		name = "Canterlot Class"
+		type = ship_hull_cruiser_1
+		name_group = EQS_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_medium_battery_1
+		}
+		obsolete = yes
+	}
+	# Battlecruisers #
+	create_equipment_variant = {
+		name = "Constellation Class"
+		type = ship_hull_light_1
+		name_group = EQS_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+}}
