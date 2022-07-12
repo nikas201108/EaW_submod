@@ -76,4 +76,16 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 		}
+
+	fleet = {
+		name = "The Great Revolutionary Fleet"
+		naval_base = 13345
+		task_force = {
+			name = "The Great Revolutionary Fleet"
+			location = 13345
+			ship =  { ordered_name = 3 definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RRE version_name = "Canterlot Class"} } }
+			ship = { name = "ERNS Volunteer" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = EQS version_name = "Princessyn Class"} } }
+			ship = { name = "ERNS Wolverine" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = EQS version_name = "Princessyn Class"} } }
+			}
+	}
 }
