@@ -52,5 +52,39 @@ sub_units = {
 		need = {
 			infantry_equipment = 10
 		}
+		
+		jungle = {
+			movement = 2
+			attack = 0.6
+			soft_attack = 0.2
+			defense = 0.6 	
+		}
+		mountain = {
+			movement = 0.5
+			attack = 0.3
+			defense = 0.5
+		}
+		hills = {
+			movement = 0.5
+			attack = 0.1
+			defense = 0.6
+		} 
+		plains = {
+			movement = -0.5
+			attack = -0.9
+			defense = -0.7
+			soft_attack = -0.5
+		}
+		forest = {
+			movement = 0.6
+			attack = 0.3
+			soft_attack = 0.1
+			defense = 0.4
+		}
+		urban = {
+			movement = -0.7
+			attack = 0.3
+			defense = 0.3
+		}
 	}
 }

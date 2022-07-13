@@ -50,7 +50,7 @@ add_manpower = 2333
 
 recruit_character = RRE_council_of_peoples_commissars
 
-create_faction = "Revolutionary_international"
+create_faction = revolut_internat
 
 set_rule = {
 	can_generate_female_aces = yes
