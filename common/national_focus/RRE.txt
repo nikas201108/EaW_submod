@@ -1,0 +1,28 @@
+focus_tree = {
+	id = shiza
+	default = no
+	
+	focus = {
+		id = RRE_chto_delat
+		icon = GFX_focus_RRE_chto_delat
+		x = 10
+		y = 0
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 2
+			}
+		}
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			country_event = {
+				id = RRE_CPC.1
+				days = 1
+		}
+	}
+}

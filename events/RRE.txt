@@ -1,0 +1,14 @@
+add_namespace = RRE_CPC
+
+country_event = {
+	id = RRE_CPC.1
+	title = RRE_CPC.1.t
+	desc = RRE_CPC.1.d
+	picture = GFX_RRE_random_kartinka
+
+	is_triggered_only = yes
+
+	option = {
+		name = RRE_CPC.1.a
+	}
+}
