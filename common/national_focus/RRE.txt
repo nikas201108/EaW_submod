@@ -1,6 +1,16 @@
 focus_tree = {
 	id = RRE_CPC
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
 	default = no
+	
 	
 		focus = {	
 			id = RRE_CPC_chto_delat
