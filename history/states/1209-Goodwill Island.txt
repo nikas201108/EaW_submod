@@ -1,0 +1,18 @@
+
+state={
+	id=1209
+	name="STATE_1209"
+
+	history={
+		owner = RRE
+		victory_points = { 20729 12 }
+	}
+
+	provinces={
+		20729 20730
+	}
+	manpower=87332
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

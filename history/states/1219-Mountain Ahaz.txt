@@ -1,0 +1,22 @@
+
+state={
+	id=1219
+	name="STATE_1219"
+
+	history={
+		owner = RRE
+		victory_points = { 20760 10 }
+		buildings = {
+		infrastructure = 1
+		arms_factory = 1		
+}
+	}
+
+	provinces={
+		20758 20759 20760 20761
+	}
+	manpower=285299
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

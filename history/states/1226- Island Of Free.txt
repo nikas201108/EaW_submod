@@ -1,0 +1,17 @@
+
+state={
+	id=1226
+	name="STATE_1226"
+
+	history={
+		owner = RRE
+	}
+
+	provinces={
+		 20784 20785 20786
+	}
+	manpower=14729
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

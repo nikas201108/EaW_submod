@@ -31,7 +31,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 13345
+		location = 20731
 		division_template = "Brigade of sailors"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
@@ -41,7 +41,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 13365
+		location = 20751
 		division_template = "Indigenous brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -51,7 +51,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 13392
+		location = 20778
 		division_template = "Indigenous brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -61,7 +61,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 13347
+		location = 20733
 		division_template = "Indigenous brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -71,7 +71,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 13363
+		location = 20749
 		division_template = "Indigenous brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -79,10 +79,10 @@ units = {
 
 	fleet = {
 		name = "The Great Revolutionary Fleet"
-		naval_base = 13345
+		naval_base = 20731
 		task_force = {
 			name = "The Great Revolutionary Fleet"
-			location = 13345
+			location = 20731
 			ship =  { ordered_name = 3 definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RRE version_name = "Canterlot Class"} } }
 			ship = { name = "ERNS Volunteer" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = EQS version_name = "Princessyn Class"} } }
 			ship = { name = "ERNS Wolverine" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = EQS version_name = "Princessyn Class"} } }

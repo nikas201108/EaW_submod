@@ -1,0 +1,19 @@
+
+state={
+	id=1220
+	name="STATE_1220"
+	
+	history={
+		owner = RRE
+		victory_points = { 20764 5 }
+
+	}
+
+	provinces={
+		20762 20763 20764
+	}
+	manpower=43574
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
