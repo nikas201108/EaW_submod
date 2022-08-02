@@ -5,15 +5,14 @@ focus_tree = {
 		
 		modifier = {
 			add = 10
-			tag = GER
+			tag = RRE
 		}
 	}
 	
 	default = no
 	
-	
 		focus = {	
-			id = RRE_CPC_chto_delat
+			id = RRE_CPC_our_sunset
 			icon = GFX_focus_RRE_chto_delat
 			x = 10
 			y = 0
@@ -32,6 +31,56 @@ focus_tree = {
 			completion_reward = {
 				country_event = {
 					id = RRE_CPC.1
+					days = 1
+			}
+		}
+	}
+	
+		focus = {	
+			id = RRE_CPC_chto_delat
+			icon = GFX_focus_RRE_chto_delat
+			x = 10
+			y = 2
+			
+			cost = 5
+			
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 2
+				}
+			}
+			
+			available_if_capitulated = yes
+			
+			completion_reward = {
+				country_event = {
+					id = RRE_CPC.2
+					days = 1
+			}
+		}
+	}
+	
+	focus = {	
+			id = RRE_CPC_long_night
+			icon = GFX_focus_RRE_chto_delat
+			x = 10
+			y = 1
+			
+			cost = 5
+			
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 2
+				}
+			}
+			
+			available_if_capitulated = yes
+			
+			completion_reward = {
+				country_event = {
+					id = RRE_CPC.3
 					days = 1
 			}
 		}

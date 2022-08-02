@@ -13,3 +13,31 @@ country_event = {
 		custom_effect_tooltip = 1_RRE_CPC_tt
 	}
 }
+
+country_event = {
+	id = RRE_CPC.2
+	title = RRE_CPC.2.t
+	desc = RRE_CPC.2.d
+	picture = GFX_RRE_random_kartinka
+
+	is_triggered_only = yes
+
+	option = {
+		name = RRE_CPC.2.a
+		custom_effect_tooltip = 2_RRE_CPC_tt
+	}
+}
+
+country_event = {
+	id = RRE_CPC.3
+	title = RRE_CPC.3.t
+	desc = RRE_CPC.3.d
+	picture = GFX_RRE_random_kartinka
+
+	is_triggered_only = yes
+
+	option = {
+		name = RRE_CPC.3.a
+		custom_effect_tooltip = 3_RRE_CPC_tt
+	}
+}
