@@ -730,6 +730,10 @@ defined_text = {
 defined_text = { # Country
 	name = GetRegionName
 	text = {
+		trigger = { original_tag = RRE }
+		localization_key = EAW_WS_Archipelago_of_Hope
+	}
+	text = {
 		trigger = { is_northern_equestria_country = yes }
 		localization_key = EAW_WS_Northern_Equestria
 	}
@@ -799,6 +803,10 @@ defined_text = { # Country
 	text = {
 		trigger = { is_northern_equestria_country = yes }
 		localization_key = EAW_WS_Northern_Equestria_desc
+	}
+	text = {
+		trigger = { original_tag = RRE }
+		localization_key = EAW_WS_Archipelago_of_Hope_desc
 	}
 	text = {
 		trigger = { is_southern_equestria_country = yes }
