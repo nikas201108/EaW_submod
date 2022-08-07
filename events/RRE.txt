@@ -4,7 +4,7 @@ country_event = {
 	id = RRE_CPC.1
 	title = RRE_CPC.1.t
 	desc = RRE_CPC.1.d
-	picture = GFX_RRE_random_kartinka
+	picture = GFX_report_event_RRE_CPC_pereulok
 
 	is_triggered_only = yes
 
@@ -18,7 +18,7 @@ country_event = {
 	id = RRE_CPC.2
 	title = RRE_CPC.2.t
 	desc = RRE_CPC.2.d
-	picture = GFX_RRE_random_kartinka
+	picture = GFX_report_event_RRE_CPC_kill
 
 	is_triggered_only = yes
 
@@ -32,7 +32,7 @@ country_event = {
 	id = RRE_CPC.3
 	title = RRE_CPC.3.t
 	desc = RRE_CPC.3.d
-	picture = GFX_RRE_random_kartinka
+	picture = GFX_report_event_RRE_CPC_kill
 
 	is_triggered_only = yes
 

@@ -1,6 +1,14 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_focus_RRE_chto_delat"
-		textureFile = "gfx/interface/goals/Chto_delat.dds"
+		name = "GFX_focus_RRE_CPC_chto_delat"
+		textureFile = "gfx/interface/goals/RRE_CPC_Chto_delat.dds"
+		}
+	spriteType = {
+		name = "GFX_focus_RRE_CPC_night"
+		textureFile = "gfx/interface/goals/RRE_CPC_night.dds"
+		}
+	spriteType = {
+		name = "GFX_focus_RRE_CPC_sun"
+		textureFile = "gfx/interface/goals/RRE_CPC_sunrise.dds"
 		}
 }

@@ -13,11 +13,11 @@ focus_tree = {
 	
 		focus = {	
 			id = RRE_CPC_our_sunset
-			icon = GFX_focus_RRE_chto_delat
+			icon = GFX_focus_RRE_CPC_sun
 			x = 10
 			y = 0
 			
-			cost = 5
+			cost = 1
 			
 			ai_will_do = {
 				factor = 10
@@ -36,14 +36,39 @@ focus_tree = {
 		}
 	}
 	
+	focus = {	
+			id = RRE_CPC_long_night
+			icon = GFX_focus_RRE_CPC_night
+			x = 10
+			y = 1
+			
+			cost = 1
+			prerequisite = { focus =  RRE_CPC_our_sunset}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 2
+				}
+			}
+			
+			available_if_capitulated = yes
+			
+			completion_reward = {
+				country_event = {
+					id = RRE_CPC.3
+					days = 1
+			}
+		}
+	}
+	
 		focus = {	
 			id = RRE_CPC_chto_delat
-			icon = GFX_focus_RRE_chto_delat
+			icon = GFX_focus_RRE_CPC_chto_delat
 			x = 10
 			y = 2
 			
-			cost = 5
-			
+			cost = 1
+			prerequisite = { focus =  RRE_CPC_long_night}
 			ai_will_do = {
 				factor = 10
 				modifier = {
@@ -61,28 +86,5 @@ focus_tree = {
 		}
 	}
 	
-	focus = {	
-			id = RRE_CPC_long_night
-			icon = GFX_focus_RRE_chto_delat
-			x = 10
-			y = 1
-			
-			cost = 5
-			
-			ai_will_do = {
-				factor = 10
-				modifier = {
-					factor = 2
-				}
-			}
-			
-			available_if_capitulated = yes
-			
-			completion_reward = {
-				country_event = {
-					id = RRE_CPC.3
-					days = 1
-			}
-		}
-	}
+	
 }

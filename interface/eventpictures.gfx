@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_report_event_RRE_CPC_kill"
+		texturefile = "gfx/event_pictures/report_event_RRE_CPC_kill.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_RRE_CPC_pereulok"
+		texturefile = "gfx/event_pictures/report_event_RRE_CPC_Pereulok.dds"
+	}
+	
+}
