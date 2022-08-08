@@ -4,7 +4,7 @@ state={
 	name="STATE_1211"
 
 	history={
-		owner = RRE
+		controller = RRE
                                 victory_points = { 20733 10}
 		buildings = {
 				infrastructure = 1
