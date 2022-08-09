@@ -1,5 +1,5 @@
 
 RRE = {
-	color = rgb { 127 0 0 }
-	color_ui = rgb { 127 0 0 }
+	color = rgb { 100 30 30 }
+	color_ui = rgb { 100 30 30 }
 }
