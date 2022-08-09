@@ -2,7 +2,9 @@
 state={
 	id=1222
 	name="STATE_1222"
-
+	resources = {
+        		steel = 2
+    	}
 	history={
 		controller = RRE
 

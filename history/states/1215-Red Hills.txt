@@ -2,7 +2,8 @@
 state={
 	id=1215
 	name="STATE_1215"
-
+	    resources = {       		       		steel = 5
+    	}
 	history={
 		controller = RRE
 		victory_points = { 20749 6}
