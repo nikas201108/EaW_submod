@@ -33,7 +33,7 @@ units = {
 		}
 		location = 20731
 		division_template = "Brigade of sailors"
-		start_experience_factor = 0.5
+		start_experience_factor = 1
 		start_equipment_factor = 1
 		}
 	division = {
