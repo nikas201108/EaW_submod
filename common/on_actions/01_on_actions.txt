@@ -1,0 +1,153 @@
+on_actions = {
+	on_nuke_drop = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {has_global_flag = RRE_first_nuke_dropped}		
+					}
+					goto_state = FROM
+					set_global_flag = RRE_first_nuke_dropped
+			}
+
+			log = "[GetDateText] [Root.GetName] on_nuke_drop FROM = [From.GetName]"
+			FROM = {
+				decrease_population_on_nuke = yes
+			}
+			if = {
+				limit = {
+					original_tag = EQS
+					FROM = { state = 251 }
+					NOT = { has_country_flag = nuked_the_hive }
+				}
+				save_event_target_as = hive_nuker
+				set_country_flag = nuked_the_hive
+				news_event = { id = news.50 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 389 }
+					NOT = { has_global_flag = griffonstone_nuked }
+				}
+				save_global_event_target_as = griffonstone_nuker
+				set_global_flag = griffonstone_nuked
+				news_event = { id =  nuke_dropped.101 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 382 }
+					NOT = { has_global_flag = greifenheim_nuked }
+				}
+				set_global_flag = greifenheim_nuked
+				news_event = { id =  nuke_dropped.102 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 377 }
+					NOT = { has_global_flag = aquila_nuked }
+				}
+				set_global_flag = aquila_nuked
+				news_event = { id =  nuke_dropped.103 hours = 3 }
+			    goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 371 }
+					NOT = { has_global_flag = karthin_nuked }
+				}
+				set_global_flag = karthin_nuked
+				news_event = { id =  nuke_dropped.104 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 415 }
+					NOT = { has_global_flag = magehold_nuked }
+				}
+				set_global_flag = magehold_nuked
+				news_event = { id =  nuke_dropped.105 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 381 }
+					NOT = { has_global_flag = skyfall_nuked }
+				}
+				set_global_flag = skyfall_nuked
+				news_event = { id =  nuke_dropped.106 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 3 }
+					NOT = { has_global_flag = canterlot_nuked }
+				}
+				set_global_flag = canterlot_nuked
+				news_event = { id =  nuke_dropped.107 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 619 }
+					NOT = { has_global_flag = rijekograd_nuked }
+				}
+				set_global_flag = rijekograd_nuked
+				news_event = { id =  nuke_dropped.108 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { 
+						OR = { ##### There are 3 proinces named Crystal City 
+							state = 53 
+							state = 345 
+							state = 344 
+						}
+					}
+					NOT = { has_global_flag = crystalcity_nuked }
+				}
+				set_global_flag = crystalcity_nuked
+				news_event = { id =  nuke_dropped.109 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 153 }
+					NOT = { has_global_flag = stalliongrad_nuked }
+				}
+				set_global_flag = stalliongrad_nuked
+				news_event = { id = nuke_dropped.110 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 875 }
+					NOT = { has_global_flag = colthage_nuked }
+				}
+				set_global_flag = colthage_nuked
+				news_event = { id = nuke_dropped.111 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 1165 }
+					NOT = { has_global_flag = mount_aris_nuked }
+				}
+				set_global_flag = mount_aris_nuked
+				news_event = { id = nuke_dropped.112 hours = 3 }
+				goto_state = FROM
+			}
+			if = {
+				limit = {
+					FROM = { state = 712 }
+					NOT = { has_global_flag = new_ayacachtli_nuked }
+				}
+				set_global_flag = new_ayacachtli_nuked
+				news_event = { id = nuke_dropped.113 hours = 3 }
+				goto_state = FROM
+			}
+		}
+	}
+}

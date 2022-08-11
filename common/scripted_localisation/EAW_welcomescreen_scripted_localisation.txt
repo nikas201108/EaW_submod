@@ -11,10 +11,6 @@
 defined_text = { # Country
 	name = GetNiceCountryName
 	text = {
-		trigger = { original_tag = RRE }
-		localization_key = EAW_WS_RRE
-	}
-	text = {
 		trigger = { original_tag = VED }
 		localization_key = EAW_WS_VED
 	}
@@ -367,10 +363,6 @@ defined_text = { # Country
 
 defined_text = {
 	name = GetCountryIntro
-	text = {
-		trigger = { original_tag = RRE }
-		localization_key = EAW_WS_RRE_desc
-	}
 	text = {
 		trigger = { original_tag = VED }
 		localization_key = EAW_WS_VED_desc
@@ -728,11 +720,7 @@ defined_text = {
 }
 
 defined_text = { # Country
-	name = GetRegionDesc
-	text = {
-		trigger = { original_tag = RRE }
-		localization_key = EAW_WS_Archipelago_of_Hope_desc
-	}
+	name = GetRegionName
 	text = {
 		trigger = { is_northern_equestria_country = yes }
 		localization_key = EAW_WS_Northern_Equestria
@@ -799,11 +787,7 @@ defined_text = { # Country
 }
 
 defined_text = { # Country
-	name = GetRegionName
-	text = {
-		trigger = { original_tag = RRE }
-		localization_key = EAW_WS_Archipelago_of_Hope
-	}
+	name = GetRegionDesc
 	text = {
 		trigger = { is_northern_equestria_country = yes }
 		localization_key = EAW_WS_Northern_Equestria_desc
@@ -868,6 +852,19 @@ defined_text = { # Country
 		localization_key = "[Root.GetNameDef]"
 	}
 }
-	
 
 
+defined_text = {
+	name = GetHeaderText
+	text = {
+		trigger = { original_tag = MAN }
+		localization_key = EAW_WS_header_text_MAN
+	}
+	text = {
+		trigger = { original_tag = ELF }
+		localization_key = EAW_WS_header_text_ELF
+	}
+	text = {
+		localization_key = EAW_WS_standard_header_text
+	}
+}
