@@ -1,0 +1,30 @@
+state_categories={
+     small_tribe = {
+        color = { 230 100 0 }
+        local_building_slots = 3
+		resistance_growth = 0.4
+    }
+	
+	big_tribe = {
+		color = { 200 130 0 }
+        local_building_slots = 4
+		resistance_growth = 0.3
+	}
+	
+	large_tribe = {
+		color = { 170 160 0 }
+        local_building_slots = 5
+		resistance_growth = 0.2
+	}
+	
+	unification_of_tribes = {
+		color = { 140 190 0 }
+        local_building_slots = 6
+		resistance_growth = 0.2
+	}
+	pasture_land = {
+	color = { 0 190 0 }
+	local_building_slots = 6
+	}
+}
+	

@@ -13,6 +13,6 @@ state={
 	}
 	manpower=73599
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=pasture_land
 	local_supplies=0.000
 }

@@ -19,6 +19,6 @@ state={
 	}
 	manpower=240302
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=unification_of_tribes
 	local_supplies=0.000
 }
