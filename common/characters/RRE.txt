@@ -11,4 +11,53 @@ characters={
 			ideology=marxism
 			expire="1965.1.1.1"
 			id=-1
-}}}
+			}
+		}
+	RRE_tovarish_tuhach={
+		name = RRE_tovarish_tuhach
+		portraits={
+			army = {
+				large="GFX_portrait_RRE_tovarish_tuhach"
+				small="GFX_portrait_RRE_tovarish_tuhach_small"
+				}
+			civilian={
+				large="GFX_portrait_rre_tovarish_tuhach"	
+				}
+			}
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = tovarish_tuhach
+			ledger = army
+			traits = {
+				mass_assault_expert
+				}
+			}
+		field_marshal = {
+			traits = {  old_guard infantry_officer media_personality offensive_doctrine master_of_gas_war}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}	
+	}
+	RRE_white_storm={
+		name = RRE_white_storm
+		portraits = {
+			army = {
+				large="GFX_portrait_RRE_white_storm"
+			}
+		}
+		corps_commander = {
+			traits = { junior_officer sailor offensive_doctrine war_hero}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

@@ -50,6 +50,12 @@ set_war_support = 0.2
 add_manpower = 2333
 
 recruit_character = RRE_council_of_peoples_commissars
+recruit_character = RRE_tovarish_tuhach
+recruit_character = RRE_white_storm
+
+add_ideas = {
+	RRE_tribal_medicine
+}
 
 create_faction = revolut_internat
 
@@ -90,4 +96,5 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 		obsolete = yes
-}}
+	}
+}

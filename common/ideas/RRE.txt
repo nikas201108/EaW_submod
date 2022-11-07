@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		RRE_tribal_medicine = {
+			allowed_civil_war = { always = yes }
+			picture = tribal_medicine
+			modifier = {
+				attrition = -0.05
+				monthly_population = 0.1
+			}
+		}
+	}
+}

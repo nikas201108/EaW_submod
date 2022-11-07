@@ -3,4 +3,16 @@ spriteTypes = {
 		name = "GFX_portrait_RRE_SNK"
 		texturefile = "gfx/leaders/RRE/portrait_RRE_supreme_soviet.dds"
 		}
+	spriteType = {
+		name = "GFX_portrait_RRE_tovarish_tuhach"
+		texturefile = "gfx/leaders/RRE/portrait_RRE_tovarish_tuhach.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_RRE_tovarish_tuhach_small"
+		texturefile = "gfx/interface/ideas/idea_tovarish_tuhach.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_RRE_white_storm"
+		texturefile = "gfx/leaders/RRE/portrait_RRE_white_storm.dds"
+		}
 }

@@ -1,0 +1,37 @@
+leader_traits = {
+	master_of_gas_war = {
+		type = land
+		trait type = personality_trait
+		modifier = {
+			army_attack_factor = 0.15
+		}
+		attack_skill = 1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	sailor = {
+		type = land
+		trait type = personality_trait
+		modifier = {
+			army_attack_factor = 0.05
+			army_defence_factor = 0.05
+			marine_attack_factor = 0.05
+			marine_defence_factor = 0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	junior_officer = {
+		type = land
+		trait type = personality_trait
+		modifier = {
+			army_morale_factor = -0.5
+			army_org_regain = -0.2
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
