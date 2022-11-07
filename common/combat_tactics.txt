@@ -12,6 +12,7 @@ phases = { # phase = no is the standard phase
 
 
 tactic_guerrilla_raid = {
+
 	is_attacker = yes
 	trigger = { # combined scope for both country and combatant
 		phase = no
@@ -34,6 +35,7 @@ tactic_guerrilla_raid = {
 }
 
 tactic_night_raid = {
+
 	is_attacker = yes
 	trigger = { # combined scope for both country and combatant
 		phase = no
@@ -58,6 +60,49 @@ tactic_night_raid = {
 	attacker = 0.5
 }
 
+tactic_night_maneuvering = {
+
+	is_attacker = no
+	trigger = { # combined scope for both country and combatant
+		phase = no
+		is_attacker = no
+		tag = RRE
+		OR = {
+			is_fighting_in_terrain = jungle
+			is_fighting_in_terrain = urban
+			is_fighting_in_terrain = mountain
+			is_fighting_in_terrain = marsh
+		}
+	}
+
+	active = yes
+
+	base =  { factor = 10 }
+	picture = attack
+
+	countered_by = tactic_blitz
+
+	attacker = -0.3
+}
+
+tactic_fortified_area = {
+
+	is_attacker = no
+	trigger = { # combined scope for both country and combatant
+		phase = no
+		is_attacker = no
+		tag = RRE
+	}
+
+	active = yes
+
+	base =  { factor = 10 }
+	picture = attack
+
+	countered_by = tactic_assault
+
+	attacker = -0.3
+}
 
 tactic_basic_attack = {
 
@@ -130,6 +175,7 @@ tactic_assault = {
 			add = 2
 
 			has_trait = aggressive_assaulter
+		}
 		}
 
 		modifier = {

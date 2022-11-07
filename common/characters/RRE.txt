@@ -60,4 +60,18 @@ characters={
 			legacy_id = -1
 		}
 	}
+	
+	RRE_morning_light = {
+		name = RRE_morning_light
+		portraits = {
+			army = {
+				small = GFX_idea_morning_light
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = morning_light
+			traits = { state_shaman }
+		}
+	}
 }

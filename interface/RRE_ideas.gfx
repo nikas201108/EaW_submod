@@ -7,3 +7,7 @@ spriteTypes = {
 		name = "GFX_idea_tribal_medicine"
 		texturefile = "gfx/interface/ideas/idea_tribal_medicine.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_morning_light"
+		texturefile = "gfx/interface/ideas/idea_morning_light.dds"	
+	}

@@ -13,6 +13,7 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 	tech_military_police = 1
+	basic_train = 1
 }
 actually_fix_weapon_techs = yes
 if = {
@@ -52,6 +53,7 @@ add_manpower = 2333
 recruit_character = RRE_council_of_peoples_commissars
 recruit_character = RRE_tovarish_tuhach
 recruit_character = RRE_white_storm
+recruit_character = RRE_morning_light
 
 add_ideas = {
 	RRE_tribal_medicine

@@ -1,2 +1,5 @@
 ﻿l_russian:
- tactic_guerrilla_raid:0 "Партизан атаке"
+ tactic_guerrilla_raid:0 "Партизанский рейд"
+ tactic_night_raid:0 "Ночной рейд"
+ tactic_fortified_area:0 "Тактика укрепрайонов"
+ tactic_night_maneuvering:0 "Ночное маневрирование"

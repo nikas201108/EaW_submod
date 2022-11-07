@@ -34,4 +34,10 @@ leader_traits = {
 			factor = 0
 		}
 	}
+	state_shaman = {
+		random = no
+		stability_factor = 0.05
+		monthly_population = 0.25
+		political_power_factor = 0.05
+	}
 }
