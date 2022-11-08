@@ -8,5 +8,20 @@ ideas = {
 				monthly_population = 0.1
 			}
 		}
+		RRE_stagnation_of_socialism = {
+			allowed_civil_war = { always = yes }
+			picture = stagnation_of_socialism
+			modifier = {
+				stability_weekly = -0.01
+				war_support_weekly = -0.01
+				political_power_factor = -0.5
+			}
+		}
+		RRE_nonworking_state_apparatus = {
+			allowed_civil_war = { always = yes }
+			picture = nonworking_state_apparatus
+			modifier = {
+				disabled_ideas = 1
+		}
 	}
 }

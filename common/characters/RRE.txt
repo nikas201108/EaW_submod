@@ -34,7 +34,7 @@ characters={
 				}
 			}
 		field_marshal = {
-			traits = {  old_guard infantry_officer media_personality offensive_doctrine master_of_gas_war}
+			traits = { pony_race_trait old_guard infantry_officer media_personality offensive_doctrine master_of_gas_war}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -51,7 +51,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { junior_officer sailor offensive_doctrine war_hero}
+			traits = { pony_race_trait junior_officer sailor offensive_doctrine war_hero}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -72,6 +72,37 @@ characters={
 			slot = political_advisor
 			idea_token = morning_light
 			traits = { state_shaman }
+		}
+	}
+	
+	RRE_last_shock = {
+		name = RRE_last_shock
+		portraits = {
+			army = {
+				large="GFX_portrait_RRE_last_shock"
+			}
+		}
+		corps_commander = {
+			traits = { pony_race_trait junior_officer war_hero}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	RRE_sandy_wood = {
+		name = RRE_sandy_wood
+		portraits = {
+			army = {
+				small = GFX_idea_sandy_wood
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = sandy_wood
+			traits = { state_negotiator }
 		}
 	}
 }

@@ -54,15 +54,25 @@ recruit_character = RRE_council_of_peoples_commissars
 recruit_character = RRE_tovarish_tuhach
 recruit_character = RRE_white_storm
 recruit_character = RRE_morning_light
+recruit_character = RRE_last_shock
+recruit_character = RRE_sandy_wood
 
 add_ideas = {
 	RRE_tribal_medicine
+	RRE_stagnation_of_socialism
+	RRE_complete_isolation
+	RRE_nonworking_state_apparatus
+	poor_science_base
+	lack_of_scientists
+	pre_industrial_society
 }
 
 create_faction = revolut_internat
 
 set_rule = {
 	can_generate_female_aces = yes
+	can_generate_female_unit_leaders  = yes
+	can_generate_female_country_leaders = yes
 }
 
 if = {

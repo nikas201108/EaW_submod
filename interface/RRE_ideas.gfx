@@ -11,3 +11,19 @@ spriteTypes = {
 		name = "GFX_idea_morning_light"
 		texturefile = "gfx/interface/ideas/idea_morning_light.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_stagnation_of_socialism"
+		texturefile = "gfx/interface/ideas/idea_stagnation_of_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_undisturbed_isolation"
+		texturefile = "gfx/interface/ideas/idea_undisturbed_isolation.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_sandy_wood"
+		texturefile = "gfx/interface/ideas/idea_sandy_wood.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_nonworking_state_apparatus"
+		texturefile = "gfx/interface/ideas/idea_nonworking_state_apparatus.dds"	
+	}
