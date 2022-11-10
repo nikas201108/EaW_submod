@@ -27,3 +27,16 @@ spriteTypes = {
 		name = "GFX_idea_nonworking_state_apparatus"
 		texturefile = "gfx/interface/ideas/idea_nonworking_state_apparatus.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_medic_summer_small"
+		texturefile = "gfx/interface/ideas/idea_medic_summer_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_bearded_limon"
+		texturefile = "gfx/interface/ideas/idea_bearded_limon.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_council_milita"
+		texturefile = "gfx/interface/ideas/idea_council_milita.dds"
+	}
+}

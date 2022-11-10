@@ -2,7 +2,6 @@ capital = 1210
 set_oob = "RRE_1007"
 
 set_research_slots = 2
-starting_train_buffer = 1
 
 set_technology = {
 	pony_race = 1
@@ -56,15 +55,20 @@ recruit_character = RRE_white_storm
 recruit_character = RRE_morning_light
 recruit_character = RRE_last_shock
 recruit_character = RRE_sandy_wood
+recruit_character = RRE_medic_summer
+recruit_character = RRE_bearded_limon
 
 add_ideas = {
 	RRE_tribal_medicine
 	RRE_stagnation_of_socialism
+	RRE_council_milita
+	big_science_base
 	RRE_complete_isolation
 	RRE_nonworking_state_apparatus
-	poor_science_base
-	lack_of_scientists
+	lack_of_scientists1
 	pre_industrial_society
+	closed_economy
+	
 }
 
 create_faction = revolut_internat

@@ -19,4 +19,8 @@ spriteTypes = {
 		name = "GFX_portrait_RRE_last_shock"
 		texturefile = "gfx/leaders/RRE/portrait_RRE_last_shock.dds"
 		}
+	spriteType = {
+		name = "GFX_portrait_RRE_medic_summer"
+		texturefile = "gfx/leaders/RRE/portrait_RRE_medic_summer.dds"
+	}
 }

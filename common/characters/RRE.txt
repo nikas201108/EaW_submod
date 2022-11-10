@@ -105,4 +105,40 @@ characters={
 			traits = { state_negotiator }
 		}
 	}
+	RRE_medic_summer = {
+		name = RRE_medic_summer
+		portraits = {
+			army = {
+				large ="GFX_portrait_RRE_medic_summer"
+				small="GFX_idea_medic_summer_small"
+			}
+		}
+		corps_commander = {
+			traits = { pony_race_trait junior_officer militia}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = medic_summer
+			traits = { left_leader }
+		}
+	}
+	RRE_bearded_limon = {
+		name = RRE_bearded_limon
+		portraits = {
+			army = {
+				small = GFX_idea_bearded_limon
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = bearded_limon
+			traits = { war_correspondent }
+		}
+	}
 }

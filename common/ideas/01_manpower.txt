@@ -1,0 +1,30 @@
+ideas = {
+	mobilisation_laws = {
+		law = yes
+		use_list_view = yes
+		
+		RRE_council_milita = {
+			picture = council_milita
+			allowed = {
+				original_tag = RRE
+			}
+			allowed_civil_war = { always = yes }
+			allowed = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			modifier = {
+				conscription = 0.015
+				training_time_factor = -0.5
+				army_attack_factor = -0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
+				mobilization_speed = 0.2
+				army_org_factor = 0.1
+				army_org_regain = 0.75
+			}
+			cancel_if_invalid = no
+		}
+	}
+}
