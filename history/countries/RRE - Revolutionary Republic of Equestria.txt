@@ -57,6 +57,8 @@ recruit_character = RRE_last_shock
 recruit_character = RRE_sandy_wood
 recruit_character = RRE_medic_summer
 recruit_character = RRE_bearded_limon
+recruit_character = RRE_owl_burn
+recruit_character = RRE_radi_nika
 
 add_ideas = {
 	RRE_tribal_medicine
@@ -68,7 +70,8 @@ add_ideas = {
 	lack_of_scientists1
 	pre_industrial_society
 	closed_economy
-	
+	RRE_broken_army
+	limited_conscription
 }
 
 create_faction = revolut_internat

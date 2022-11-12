@@ -36,7 +36,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_bearded_limon.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_council_milita"
-		texturefile = "gfx/interface/ideas/idea_council_milita.dds"
+		name = "GFX_idea_broken_army"
+		texturefile = "gfx/interface/ideas/idea_broken_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_owl_burn"
+		texturefile = "gfx/interface/ideas/idea_owl_burn.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_radi_nika"
+		texturefile = "gfx/interface/ideas/idea_radi_nika_small.dds"
 	}
 }

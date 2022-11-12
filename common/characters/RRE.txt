@@ -64,7 +64,7 @@ characters={
 	RRE_morning_light = {
 		name = RRE_morning_light
 		portraits = {
-			army = {
+			civilian = {
 				small = GFX_idea_morning_light
 			}
 		}
@@ -95,7 +95,7 @@ characters={
 	RRE_sandy_wood = {
 		name = RRE_sandy_wood
 		portraits = {
-			army = {
+			civilian = {
 				small = GFX_idea_sandy_wood
 			}
 		}
@@ -110,6 +110,8 @@ characters={
 		portraits = {
 			army = {
 				large ="GFX_portrait_RRE_medic_summer"
+			}
+			civilian = {
 				small="GFX_idea_medic_summer_small"
 			}
 		}
@@ -131,14 +133,51 @@ characters={
 	RRE_bearded_limon = {
 		name = RRE_bearded_limon
 		portraits = {
-			army = {
+			civilian = {
 				small = GFX_idea_bearded_limon
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = bearded_limon
-			traits = { war_correspondent }
+			traits = { famous_radical}
+		}
+	}
+	RRE_owl_burn = {
+		name = RRE_owl_burn
+		portraits = {
+			civilian = {
+				small = GFX_idea_owl_burn
+				large = GFX_portrait_RRE_owl_burn
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = owl_burn
+			traits = { prince_of_terror }
+		}
+	}
+	RRE_radi_nika = {
+		name = RRE_radi_nika
+		portraits = {
+			army = {
+				small = GFX_idea_radi_nika
+				large = GFX_portrait_RRE_radi_nika
+			}
+		}
+		navy_leader = {
+			traits = { pony_race_trait ironside }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill=1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = radi_nika
+			traits = { navy_chief_decisive_battle_2 }
 		}
 	}
 }

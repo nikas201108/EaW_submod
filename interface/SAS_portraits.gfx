@@ -23,4 +23,12 @@ spriteTypes = {
 		name = "GFX_portrait_RRE_medic_summer"
 		texturefile = "gfx/leaders/RRE/portrait_RRE_medic_summer.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_RRE_owl_burn"
+		texturefile = "gfx/leaders/RRE/portrait_RRE_owl_burn"
+	}
+	spriteType = {
+		name = "GFX_portrait_RRE_radi_nika"
+		texturefile = "gfx/leaders/RRE/portrait_RRE_radi_nika.dds"
+	}
 }
