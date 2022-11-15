@@ -1,0 +1,6 @@
+﻿l_russian:
+RRE_stealth:0 "Сокрытие существования"
+ fishermen_activity:0 "Снижение судоплавательной активности"
+ radio_activity:0 "Снижение активности радиопереговоров"
+ building_activity:0 "Снижение активности строительства на берегу"
+ inevitable_disclosure: "Неизбежное раскрытие"

@@ -1,0 +1,5 @@
+RRE_stealth = {
+	allowed = {
+		original_tag = RRE
+	}
+}

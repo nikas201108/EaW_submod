@@ -1,0 +1,54 @@
+RRE_stealth = {
+	inevitable_disclosure = {
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 365
+		activation = {
+			tag = RRE
+		}
+		is_good = yes
+		cancel_if_not_visible = yes
+	}
+	fishermen_activity = {
+		cost = 20
+		days_remove = 30
+		complete_effect = {
+			add_stability = -0.025
+		}
+		remove_effect = {
+			add_days_mission_timeout = {
+				mission = inevitable_disclosure
+				days = 20
+			}
+		}
+	}
+	radio_activity = {
+		cost = 15
+		days_remove = 30
+		complete_effect = {
+			add_war_support = -0.025
+		}
+		remove_effect = {
+			add_days_mission_timeout = {
+				mission = inevitable_disclosure
+				days = 15
+			}
+
+		}
+	}
+	building_activity = {
+		cost = 10
+		days_remove = 30
+		complete_effect = {
+			add_stability = -0.01
+			add_war_support = -0.01
+		}
+		remove_effect = {
+			add_days_mission_timeout = {
+				mission = inevitable_disclosure
+				days = 10
+			}
+		}
+	}
+}

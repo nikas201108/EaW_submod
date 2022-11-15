@@ -20,6 +20,8 @@ ideas = {
 				max_fuel_factor = -0.5
 				fuel_gain_factor = -0.7
 				production_factory_max_efficiency_factor = -0.8
+				stability_weekly = 0.004
+				war_support_weekly = 0.004
 			}
 			cancel_if_invalid = no
 		}
